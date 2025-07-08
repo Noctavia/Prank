@@ -13,7 +13,7 @@ window.addEventListener("load", () => {
       };
 
       // Ton lien Google Apps Script
-      const scriptURL = "https://script.google.com/macros/s/AKfycbzVe5HXwCeDkO1aJbdLJx2PFZrhut_n9rnMn33LSjJB8irnMrjNurz-A-lH0-2doF_z1g/exec";
+      const scriptURL = "https://script.google.com/macros/s/AKfycbyVgWoa8nwTlYt7VVEfJoMoD7Rfjz_w0-qFmjI5DOa_YuhEvZqkLTuPQNDUm2BHja0xLQ/exec";
 
       // Envoi POST
       fetch(`${scriptURL}?ip=${encodeURIComponent(data.ip)}`, {
