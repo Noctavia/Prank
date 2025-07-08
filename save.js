@@ -1,5 +1,4 @@
 // save.js
-
 window.addEventListener("load", () => {
   const data = {
     language: navigator.language || "",
@@ -15,5 +14,7 @@ window.addEventListener("load", () => {
       "Content-Type": "application/json"
     },
     body: JSON.stringify(data)
+  }).catch((err) => {
+    console.error("Erreur lors de l'envoi des données :", err);
   });
 });
