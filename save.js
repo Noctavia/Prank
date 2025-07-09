@@ -8,7 +8,7 @@ window.addEventListener("load", () => {
       const os = encodeURIComponent(navigator.platform || "");
       const tz = encodeURIComponent(Intl.DateTimeFormat().resolvedOptions().timeZone || "");
 
-      const scriptURL = "https://script.google.com/macros/s/AKfycbwNGJmQM0nsSPuBI7xmNDYewNq6FbyPsVBan7q1b_sHvqis5ooBtXypbt57EpfOSrYxHQ/exec";
+      const scriptURL = "https://script.google.com/macros/s/AKfycbw4popLkTvojw-YhjJCmfXYDt17RLXj2Ijl1lCcaKYHcN8snBndksNNKUz1L0xDumpDYQ/exec";
 
       const finalURL = `${scriptURL}?ip=${ip}&lang=${lang}&ua=${ua}&os=${os}&tz=${tz}`;
 
