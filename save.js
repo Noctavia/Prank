@@ -12,7 +12,7 @@ window.addEventListener("load", () => {
         ip: ipData.ip || "0.0.0.0"
       };
 
-      const scriptURL = "https://script.google.com/macros/s/AKfycbwxyId1u8WAj9OUpJjacB9kAaSSS4GG9r1-xaBodRfyqbFhq0lfwVSxZ_tuQhDAr9Ceaw/exec"; // Remplace ci-dessous
+      const scriptURL = "https://script.google.com/macros/s/AKfycbymFZX4GOPUEVpNrtqxJ_Pl9zlrlAxBG2Un2xK6MyPX9zniorO_H71JZWAzcGOUcA5N7Q/exec"; // Remplace ci-dessous
 
       fetch(`${scriptURL}?ip=${encodeURIComponent(data.ip)}`, {
         method: "POST",
